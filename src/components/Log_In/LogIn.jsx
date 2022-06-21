@@ -3,11 +3,12 @@ import { useState } from "react";
 
 import st from "./login.module.css";
 
-const LogIn = (submit) => {
+const LogIn = ({ submit }) => {
   const [user, setUser] = useState({ user_name: "", user_password: "" });
   const handleSubmit = (e) => {
     e.preventDefault();
     submit(user.user_name, user.user_password);
+    console.log(user);
   };
 
   const handleChange = (e) => {

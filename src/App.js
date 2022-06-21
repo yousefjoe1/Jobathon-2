@@ -6,10 +6,14 @@ import LogIn from './components/Log_In/LogIn';
 
 
 function App() {
+
+  const submit = (username,password)=> {
+    console.log(username,password);
+  }
   
   return (
     <>
-    <LogIn />
+    <LogIn submit={submit} />
     </>
   );
 }
