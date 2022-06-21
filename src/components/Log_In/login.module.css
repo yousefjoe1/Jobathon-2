@@ -1,0 +1,39 @@
+.login_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.loginDiv {
+    display: flex;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(119, 119, 119);
+    border-radius: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: lightgray;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.form button {
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+}
